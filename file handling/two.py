@@ -1,0 +1,8 @@
+name=input("enter your name")
+age=int(input("enter tyour age"))
+age=str(age)
+fp=open('user.txt','w')
+fp.write(name+"\n")
+fp.write(age+"\n")
+print("successfully user input taken")
+fp.close()
