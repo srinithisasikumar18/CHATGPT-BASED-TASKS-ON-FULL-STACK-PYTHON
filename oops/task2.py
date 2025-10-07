@@ -13,5 +13,4 @@ print(s1.__dict__)
 s2=School(2,"kokila")
 print(s1.School_name)
 print(s2.School_name)
-
 print(s2.__dict__)
